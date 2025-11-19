@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-    res.json({ ok: true, msg: "Hello from Express inside a Dev Container!" });
+    res.json({ ok: true, msg: "Hello from Express inside a Dev Container!", name: "Rayudu Rajaharsha" });
 });
 
 app.get("/health", (req, res) => {
