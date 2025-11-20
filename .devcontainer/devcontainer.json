@@ -13,5 +13,12 @@
 			"label": "Express App"
 		}
 	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bruno-api-client.bruno"
+			]
+		}
+	},
 	"remoteUser": "node"
 }
